@@ -1,0 +1,11 @@
+<suite name="Default Suite">
+    <test name="Selenium_Practice">
+        <classes>
+            <class name="seleniumTesting">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class> <!-- seleniumTesting -->
+        </classes>
+    </test> <!-- Selenium_Practice -->
+</suite> <!-- Default Suite -->
