@@ -1,5 +1,4 @@
 package Practice_2;
-import com.sun.corba.se.impl.util.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +9,6 @@ import org.testng.Assert;
 import org.testng.asserts.*;
 import org.testng.annotations.Test;
 import com.page.object.LoginObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,7 +38,8 @@ public class RegisterTests {
     public void ValidateErrMsgRegisterForm(){
 
         driver.getUrl("http://qa-trainingw7:86/");
-        driver.getWebElementFactory("//a[@id='ctl00_LoginView_RegisterLink']").click();
+        //driver.getWebElementFactory("//a[@id='ctl00_LoginView_RegisterLink']").click();
+        driver.clickOnRegisterLink();
         driver.getWebElementFactory("//input[contains(@name,'ctl00$Main$CreateUserWizardControl$_')]").click();
 
         ArrayList<String> requireMsg = new ArrayList<String>();
