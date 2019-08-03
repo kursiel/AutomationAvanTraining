@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="98e19db9-48e7-483b-9015-0b5a6fac2842" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Practice_2/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Practice_2/RegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/page/object/LoginObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/page/object/LoginObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumTesting.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +27,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="48" column="116" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="116" />
+            <state relative-caret-position="-14">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1626#1634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,61 +55,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="-34">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/page/object/driverObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/page/object/LoginObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/test/Practice_2/RegisterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/RegisterTestObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/LoginObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumTesting.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" />
       </list>
@@ -142,6 +117,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +163,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,6 +191,24 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.RegisterTests.ValidateErrMsgRegisterForm">
+    <configuration name="RegisterTests.ValidateCorrectLoadPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practice_2" />
+      <option name="MAIN_CLASS_NAME" value="Practice_2.RegisterTests" />
+      <option name="METHOD_NAME" value="ValidateCorrectLoadPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTests.ValidateErrMsgRegisterForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Practice" />
       <extension name="coverage">
@@ -264,17 +257,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="waitDriverPractice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="waitDriverPractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="waitDriverPractice.implicitWaits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Practice" />
       <option name="PACKAGE_NAME" value="" />
@@ -290,10 +272,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegisterTests.ValidateErrMsgRegisterForm" />
+        <item itemvalue="TestNG.RegisterTests.ValidateCorrectLoadPage" />
         <item itemvalue="TestNG.RegisterTests.registerTest" />
         <item itemvalue="TestNG.seleniumTesting.login" />
         <item itemvalue="TestNG.waitDriverPractice.implicitWaits" />
-        <item itemvalue="TestNG.waitDriverPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -319,34 +301,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegisterTests_registerTest - 2019.07.30 at 01h 18m 47s.xml">
-      <configuration name="RegisterTests.registerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_registerTest - 2019.07.30 at 01h 19m 48s.xml">
-      <configuration name="RegisterTests.registerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 21m 45s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 20m 40s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 24m 30s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 21m 42s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 25m 23s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 22m 49s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 34m 00s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 23m 16s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 34m 19s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 33m 01s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 35m 15s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 34m 37s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 36m 43s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 35m 06s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.07.31 at 04h 38m 05s.xml">
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 36m 14s.xml">
+      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 37m 27s.xml">
+      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 52m 40s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -360,9 +342,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1703125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16983895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,14 +355,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.328594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.39810428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073206" side_tool="true" weight="0.328594" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073206" side_tool="true" weight="0.39810428" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49853587" weight="0.32804233" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49853587" weight="0.3270142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,21 +396,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Practice_2/RegisterTests.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Function.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/waitDriverPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -448,39 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="48" column="116" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1626#1634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/page/object/driverObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/page/object/LoginObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1384#1385#0" expanded="true" />
@@ -496,18 +439,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/page/object/driverObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementListHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="918" selection-start-line="918" selection-end-line="918" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/TestListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="445" column="16" selection-start-line="445" selection-start-column="16" selection-end-line="445" selection-end-column="16" />
+          <folding>
+            <element signature="e#8372#8373#0" expanded="true" />
+            <element signature="e#8421#8422#0" expanded="true" />
+            <element signature="e#45328#45329#0" expanded="true" />
+            <element signature="e#45360#45361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="243" column="16" selection-start-line="243" selection-start-column="16" selection-end-line="243" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#2156#2157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="1034" selection-start-line="1034" selection-end-line="1034" />
+          <folding>
+            <element signature="e#38581#38582#0" expanded="true" />
+            <element signature="e#38627#38628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/TestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#2836#2837#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/waitDriverPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
           </folding>
         </state>
       </provider>
