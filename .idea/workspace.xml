@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e19db9-48e7-483b-9015-0b5a6fac2842" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Practice.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testSuitSelenium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testSuitSelenium.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Practice_2/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Practice_2/RegisterTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/page/object/LoginObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/page/object/LoginObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumTesting.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="435">
+              <caret line="91" column="5" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,16 +36,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="418">
+              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setKeysPasswordConfirmation#0;class#RegisterPage#0" />
               </folding>
             </state>
           </provider>
@@ -55,14 +72,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="174">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +97,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/testSuitSelenium.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/waitsPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/driverObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/waitDriverPractice.java" />
@@ -92,9 +104,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/RegisterTestObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/LoginObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/seleniumTesting.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" />
+        <option value="$PROJECT_DIR$/src/testSuitSelenium.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java" />
       </list>
     </option>
   </component>
@@ -117,7 +131,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +176,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +204,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegisterTests.ValidateErrMsgRegisterForm">
+  <component name="RunManager" selected="TestNG.C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml">
+    <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testSuitSelenium.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTests.ValidateCorrectLoadPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Practice" />
       <extension name="coverage">
@@ -227,6 +251,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterTests.ValidateUserExistForRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practice_2" />
+      <option name="MAIN_CLASS_NAME" value="Practice_2.RegisterTests" />
+      <option name="METHOD_NAME" value="ValidateUserExistForRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTests.registerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Practice" />
       <extension name="coverage">
@@ -245,37 +287,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seleniumTesting.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="seleniumTesting" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="waitDriverPractice.implicitWaits" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="waitDriverPractice" />
-      <option name="METHOD_NAME" value="implicitWaits" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" />
+        <item itemvalue="TestNG.RegisterTests.ValidateUserExistForRegistration" />
         <item itemvalue="TestNG.RegisterTests.ValidateErrMsgRegisterForm" />
         <item itemvalue="TestNG.RegisterTests.ValidateCorrectLoadPage" />
         <item itemvalue="TestNG.RegisterTests.registerTest" />
-        <item itemvalue="TestNG.seleniumTesting.login" />
-        <item itemvalue="TestNG.waitDriverPractice.implicitWaits" />
       </list>
     </recent_temporary>
   </component>
@@ -297,39 +315,46 @@
       <option name="project" value="LOCAL" />
       <updated>1564702720292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="factory added">
+      <created>1564820604612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564820604613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 20m 40s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 21m 42s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 22m 49s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 23m 16s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 33m 01s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 34m 37s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 35m 06s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 36m 14s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 37m 27s.xml">
-      <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RegisterTests_ValidateErrMsgRegisterForm - 2019.08.03 at 01h 52m 40s.xml">
       <configuration name="RegisterTests.ValidateErrMsgRegisterForm" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegisterTests_ValidateUserExistForRegistration - 2019.08.03 at 18h 18m 54s.xml">
+      <configuration name="RegisterTests.ValidateUserExistForRegistration" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 18h 19m 54s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 18h 21m 05s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 18h 21m 56s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 18h 28m 32s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 18h 33m 31s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 19h 03m 16s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 19h 09m 52s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2019.08.03 at 19h 10m 51s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -354,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.328594" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.39810428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,13 +454,6 @@
             <element signature="e#1384#1385#0" expanded="true" />
             <element signature="e#1419#1420#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -548,40 +566,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="717">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="method#setKeysPasswordConfirmation#0;class#RegisterPage#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="435">
+          <caret line="91" column="5" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="418">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
           </folding>
         </state>
       </provider>

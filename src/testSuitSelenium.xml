@@ -1,11 +1,26 @@
 <suite name="Default Suite">
     <test name="Selenium_Practice">
         <classes>
-            <class name="seleniumTesting">
+            <!--<class name="seleniumTesting">
                 <methods>
                     <include name="login"/>
                 </methods>
-            </class> <!-- seleniumTesting -->
+            </class> --> <!-- seleniumTesting -->
+            <parameter name="firstName" value="Roberto" />
+            <parameter name="lastName" value="Albeiro" />
+            <parameter name="email" value="ra1234@gmail.com" />
+            <parameter name="userName" value="ra12" />
+            <parameter name="password" value="123456@" />
+            <parameter name="passwordConfirmation" value="123456@789" />
+            <parameter name="question" value="What is my mother's name?" />
+            <parameter name="answer" value="Sonia Albeiro" />
+            <class name="Practice_2.RegisterTests">
+
+                <methods>
+                    <!--<include name="ValidateUserExistForRegistration" />-->
+                    <include name="ValidatePasswordMatchWithConfirmation" />
+                </methods>
+            </class>
         </classes>
     </test> <!-- Selenium_Practice -->
 </suite> <!-- Default Suite -->

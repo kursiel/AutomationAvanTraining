@@ -31,4 +31,8 @@ public abstract class BasePage {
     public void clickButton(WebElement button){
        button.click();
     }
+
+    public void setKeys(WebElement inputField, String value){
+       inputField.sendKeys(value);
+    }
 }

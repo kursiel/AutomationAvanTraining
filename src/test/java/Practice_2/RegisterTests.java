@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.asserts.*;
 import org.testng.annotations.Test;
 import com.page.object.LoginObject;
@@ -39,5 +40,54 @@ public class RegisterTests {
         for(int i = 0; i < driver.errMsg.size(); i ++){
             Assert.assertTrue(driver.errMsg.get(i).isDisplayed());
         }
+    }
+
+    @Parameters({"firstName", "lastName", "email", "userName", "password", "passwordConfirmation", "question", "answer" })
+    @Test
+    public void ValidateUserExistForRegistration(String firstName, String lastName, String email, String userName, String password, String passwordConfirmation, String question, String answer){
+        driver.getUrl("http://192.168.0.103:86/Register.aspx");
+        driver.setKeysFirstName(firstName);
+        driver.setKeysLastName(lastName);
+        driver.setKeysEmail(email);
+        driver.setKeysUsername(userName);
+        driver.setKeysPassword(password);
+        driver.setKeysPasswordConfirmation(passwordConfirmation);
+        driver.setKeysQuestion(question);
+        driver.setKeysAnswer(answer);
+        driver.clickOnSubmit();
+
+        Assert.assertEquals(driver.errMsgTopLabel.getText(), "User name already exists. Please enter a different user name.");
+    }
+
+    @Parameters({"firstName", "lastName", "email", "userName", "password", "passwordConfirmation", "question", "answer" })
+    @Test
+    public void ValidateUserCreation(String firstName, String lastName, String email, String userName, String password, String passwordConfirmation, String question, String answer){
+        driver.getUrl("http://192.168.0.103:86/Register.aspx");
+        driver.setKeysFirstName(firstName);
+        driver.setKeysLastName(lastName);
+        driver.setKeysEmail(email);
+        driver.setKeysUsername(userName);
+        driver.setKeysPassword(password);
+        driver.setKeysPasswordConfirmation(passwordConfirmation);
+        driver.setKeysQuestion(question);
+        driver.setKeysAnswer(answer);
+        driver.clickOnSubmit();
+        Assert.assertEquals(driver.successMsg.getText(), "Your account has been successfully created.");
+    }
+
+    @Parameters({"firstName", "lastName", "email", "userName", "password", "passwordConfirmation", "question"})
+    @Test
+    public void ValidatePasswordMatchWithConfirmation(String firstName, String lastName, String email, String userName, String password, String passwordConfirmation, String question){
+        driver.getUrl("http://192.168.0.103:86/Register.aspx");
+        driver.setKeysFirstName(firstName);
+        driver.setKeysLastName(lastName);
+        driver.setKeysEmail(email);
+        driver.setKeysUsername(userName);
+        driver.setKeysPassword(password);
+        driver.setKeysPasswordConfirmation(passwordConfirmation);
+        driver.setKeysQuestion(question);
+        //driver.clickOnSubmit();
+
+        Assert.assertEquals(driver.passwordCompareMsg.getText(), "The password and confirmation password must match.");
     }
 }
