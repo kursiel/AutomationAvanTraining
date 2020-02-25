@@ -1,5 +1,7 @@
 <suite name="Default Suite">
+    <!--<parameter name="webDriver" value="Chrome" /> -->
     <test name="Selenium_Practice">
+        <parameter name="webDriver" value="Chrome" />
         <classes>
             <!--<class name="seleniumTesting">
                 <methods>
@@ -9,16 +11,28 @@
             <parameter name="firstName" value="Roberto" />
             <parameter name="lastName" value="Albeiro" />
             <parameter name="email" value="ra1234@gmail.com" />
-            <parameter name="userName" value="ra12" />
-            <parameter name="password" value="123456@" />
-            <parameter name="passwordConfirmation" value="123456@789" />
+            <parameter name="userName" value="kcc06" />
+            <parameter name="password" value="Avan123456**" />
+            <parameter name="passwordConfirmation" value="123456@" />
+            <parameter name="passwordConfirmationMatch" value="123456@789" />
             <parameter name="question" value="What is my mother's name?" />
             <parameter name="answer" value="Sonia Albeiro" />
-            <class name="Practice_2.RegisterTests">
+            <parameter name="errMsgLogIn" value="Your login attempt was not successful. Please try again." />
+            <!--<parameter name="FireFoxDriver" value="Firefox" />
+            <parameter name="EdgeDriver" value="Edge" />
+            <parameter name="ChromeDriver" value="Chrome" /> -->
+            <parameter name="userNameWrong" value="kcc07" />
+            <parameter name="passwordWrong" value="Avan123456*" />
+            <class name="tests.LogInTests">
 
                 <methods>
-                    <!--<include name="ValidateUserExistForRegistration" />-->
-                    <include name="ValidatePasswordMatchWithConfirmation" />
+                    <!--<include name="ValidateCorrectLoadPage" />
+                    <include name="ValidateErrMsgRegisterForm" />
+                    <include name="ValidateUserExistForRegistration" />
+                    <include name="ValidatePasswordMatchWithConfirmation" /> -->
+                    <include name="successlogIn" />
+                    <include name="failUserLogIn" />
+                    <include name="failPasswordLogIn" />
                 </methods>
             </class>
         </classes>

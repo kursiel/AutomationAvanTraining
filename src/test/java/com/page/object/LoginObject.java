@@ -1,6 +1,5 @@
 package com.page.object;
 
-import Practice_2.RegisterTests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
