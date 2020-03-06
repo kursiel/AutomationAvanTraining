@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e19db9-48e7-483b-9015-0b5a6fac2842" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MyAdsProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PostAndAddPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/ManageScriptExecution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/page/object/LoginObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/page/object/LoginObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/waitDriverPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/waitDriverPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testSuitSelenium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testSuitSelenium.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Practice_2/RegisterTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/page/object/LoginObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/page/object/LoginObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/waitDriverPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/waitDriverPractice.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="349">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="64" />
+            <state relative-caret-position="576">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +53,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="544">
+              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="e#1097#1273#0" />
-                <element signature="e#1493#1758#0" />
               </folding>
             </state>
           </provider>
@@ -75,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LogInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="63" column="81" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="81" />
+            <state relative-caret-position="935">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +77,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegisterPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="1751">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2495#2496#0" expanded="true" />
+                <element signature="e#2543#2544#0" expanded="true" />
+                <element signature="e#4119#4120#0" expanded="true" />
                 <element signature="e#4148#4149#0" expanded="true" />
               </folding>
             </state>
@@ -100,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="408">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogInTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="77" lean-forward="true" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,23 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="93" column="13" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="93" selection-end-column="13" />
-              <folding>
-                <element signature="e#2531#2532#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1275">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -154,6 +134,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c231cc61-e22f-4895-b366-17fdfef00305" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,14 +158,15 @@
         <option value="$PROJECT_DIR$/src/test/java/Practice_2/ScriptCreation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/page/object/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/testSuitSelenium.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LogInTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/waitDriverPractice.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LogInTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LogInPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PostAndAddPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/testSuitSelenium.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RegisterTests.java" />
       </list>
     </option>
@@ -195,8 +179,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="287" />
-    <option name="y" value="-17" />
+    <option name="x" value="-2057" />
+    <option name="y" value="-6" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -205,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -253,21 +238,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,7 +252,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -413,25 +389,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564820604613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="factory added">
+      <created>1582668966166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582668966166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.30 at 11h 19m 03s.xml">
-      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.30 at 11h 19m 56s.xml">
-      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.30 at 11h 23m 11s.xml">
-      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.30 at 11h 23m 43s.xml">
-      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.30 at 11h 26m 11s.xml">
-      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.31 at 10h 13m 05s.xml">
       <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
     </history-entry>
@@ -447,6 +415,21 @@
     <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.01.31 at 14h 26m 04s.xml">
       <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.03.05 at 11h 01m 08s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.03.05 at 11h 01m 36s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.03.05 at 12h 23m 23s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.03.05 at 12h 41m 48s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Candelito19_Documents_GitHub_Selenium_Practice_src_testSuitSelenium_xml - 2020.03.05 at 12h 43m 01s.xml">
+      <configuration name="C:/Users/Candelito19/Documents/GitHub/Selenium_Practice/src/testSuitSelenium.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,10 +441,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-2" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14114584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14114584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -531,13 +514,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.IdeaIC2019.1/system/temp-testng-customsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="2" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Practice_2/RegisterTests.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Function.java" />
     <entry file="jar://$USER_HOME$/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementListHandler.class">
@@ -878,24 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="e#1097#1273#0" />
-            <element signature="e#1493#1758#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Boolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -907,10 +865,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PostAndAddPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/MyAdsProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -919,29 +898,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="93" selection-end-column="13" />
+        <state relative-caret-position="1275">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSuitSelenium.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <element signature="e#2531#2532#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
+            <element signature="e#1097#1273#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="64" />
+        <state relative-caret-position="1751">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2543#2544#0" expanded="true" />
+            <element signature="e#4119#4120#0" expanded="true" />
+            <element signature="e#4148#4149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LogInPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="63" column="81" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="81" />
+        <state relative-caret-position="349">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -950,29 +949,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LogInTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="77" lean-forward="true" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4148#4149#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/RegisterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="408">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

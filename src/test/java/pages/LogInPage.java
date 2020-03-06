@@ -59,12 +59,4 @@ public class LogInPage extends BasePage {
         waitForElementVisible(errLogInMsg);
         return getTextFromElement(errLogInMsg);
     }
-
-    public boolean verifyErrorMsg( String errorMsg ){
-            if(waitForElementVisible(errLogInMsg) && errLogInMsg.getText().equals(errorMsg)){
-                return true;
-            }else{
-                return false;
-            }
-    }
 }

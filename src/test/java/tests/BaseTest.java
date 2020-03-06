@@ -38,6 +38,10 @@ public class BaseTest {
         logInPage.getUrlPage("http://qa-trainingw7:86/Login.aspx");
     }
 
+    public void openRegisterInUrl(RegisterPage registerPage){
+        registerPage.getUrlPage("http://qa-trainingw7:86/Register.aspx");
+    }
+
     @AfterMethod
     public void closeDriver() {
         if(driver != null) {

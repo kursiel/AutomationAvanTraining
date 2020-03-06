@@ -4,6 +4,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+import pages.RegisterPage;
 
 public class RegisterTests extends BaseTest {
 
@@ -14,15 +16,20 @@ public class RegisterTests extends BaseTest {
         Assert.assertTrue(registerPage.verifyLoads());
     }
 
-
-    //pasar a Soft
+    @Test
     public void ValidateErrMsgRegisterForm(){
+        SoftAssert softAssertion = new SoftAssert();
+        RegisterPage registerPage = new RegisterPage(driver);
+        openRegisterInUrl(registerPage);
+
         registerPage.clickOnRegisterLink();
         registerPage.clickOnSubmit();
         registerPage.waitForElementVisible((registerPage.getErrMsgList().get(0)));
+
         for(int i = 0; i < registerPage.getErrMsgList().size(); i ++){
-            Assert.assertTrue(registerPage.getErrMsgList().get(i).isDisplayed());
+            softAssertion.assertTrue(registerPage.getErrMsgList().get(i).isDisplayed());
         }
+        softAssertion.assertAll();
     }
 
     @Parameters({"firstName", "lastName", "email", "userName", "password", "passwordConfirmation", "question", "answer" })

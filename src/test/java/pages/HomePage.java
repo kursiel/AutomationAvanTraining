@@ -57,7 +57,6 @@ public class HomePage extends BasePage {
         PageFactory.initElements(driverManager, this);
     }
 
-
     public boolean verifyLoads(){
             if(waitForElementEnabled(memberName) && waitForElementEnabled(menuLinkHome) && waitForElementEnabled(menuLinkPostAd) && waitForElementEnabled(menuLinkMyAdsProfile)){
                 for(WebElement elements : subCategories){
@@ -75,22 +74,15 @@ public class HomePage extends BasePage {
         return usr.equals(getTextFromElement(memberName));
     }
 
-    //Options
-    //1 - Home
-    //2 - Post an Ad
-    //3 - My Ads & Profile
-    public boolean navToHomeTab(String link){
-            if(link == menuLinkHome.getText()){
-                clickButton(menuLinkHome);
-                return true;
-            }else if(link == menuLinkPostAd.getText()){
-                clickButton(menuLinkPostAd);
-                return true;
-            }else if(link == menuLinkMyAdsProfile.getText()){
-                clickButton(menuLinkMyAdsProfile);
-                return true;
-            }else{
-                return false;
-            }
+    public HomePage goToHome(WebDriver driver){
+        return new HomePage(driver);
+    }
+
+    public PostAndAddPage goToPostAnAdd(WebDriver driver){
+        return new PostAndAddPage();
+    }
+
+    public MyAdsProfile goToMyAdsProfile(WebDriver driver){
+        return new MyAdsProfile();
     }
 }

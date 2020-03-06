@@ -30,7 +30,7 @@ public class LogInTests extends BaseTest {
         openLogInUrl(logInPage);
         logInPage.verifyLoads();
         homePage = logInPage.logIn(userNameWrong, password);
-        Assert.assertTrue(logInPage.verifyErrorMsg(logInPage.getErrorMsg()));
+        Assert.assertEquals(logInPage.getErrorMsg(), "Your login attempt was not successful. Please try again.");
     }
 
     @Parameters({"userName", "passwordWrong"})
@@ -42,6 +42,6 @@ public class LogInTests extends BaseTest {
         openLogInUrl(logInPage);
         logInPage.verifyLoads();
         homePage = logInPage.logIn(userName, passwordWrong);
-        Assert.assertTrue(logInPage.verifyErrorMsg(logInPage.getErrorMsg()));
+        Assert.assertEquals(logInPage.getErrorMsg(), "Your login attempt was not successful. Please try again.");
     }
 }

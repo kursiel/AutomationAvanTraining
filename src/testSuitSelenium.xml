@@ -23,18 +23,18 @@
             <parameter name="ChromeDriver" value="Chrome" /> -->
             <parameter name="userNameWrong" value="kcc07" />
             <parameter name="passwordWrong" value="Avan123456*" />
-            <class name="tests.LogInTests">
+            <class name="tests.RegisterTests">
 
                 <methods>
-                    <!--<include name="ValidateCorrectLoadPage" />
+                    <!-- <include name="ValidateCorrectLoadPage" /> -->
                     <include name="ValidateErrMsgRegisterForm" />
-                    <include name="ValidateUserExistForRegistration" />
-                    <include name="ValidatePasswordMatchWithConfirmation" /> -->
-                    <include name="successlogIn" />
-                    <include name="failUserLogIn" />
-                    <include name="failPasswordLogIn" />
-                </methods>
-            </class>
-        </classes>
-    </test> <!-- Selenium_Practice -->
+                    <!-- <include name="ValidateUserExistForRegistration" />
+                     <include name="ValidatePasswordMatchWithConfirmation" />-->
+    <!-- <include name="successlogIn" />
+     <include name="failUserLogIn" />
+     <include name="failPasswordLogIn" />-->
+ </methods>
+</class>
+</classes>
+</test> <!-- Selenium_Practice -->
 </suite> <!-- Default Suite -->
